@@ -67,7 +67,8 @@ footer {
       </section>
       <footer>Teşekkürler; <a href="https://ege.codes">eg#9994</a> ve <a href="https://discordapp.com/users/403225819222245377">Arda#0061</a> </footer>
       <script type="text/javascript">
-         document.getElementsByClassName('background')[0].style.backgroundImage = 'url('https://images.wallpaperscraft.com/image/stars_sky_night_113553_2560x1440.jpg')';
+    var images = ["https://images.wallpaperscraft.com/image/stars_sky_night_113553_2560x1440.jpg", "https://images.wallpaperscraft.com/image/stars_sky_night_113553_2560x1440.jpg"]
+         document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
       </script>
    </body>
 </html>
